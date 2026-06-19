@@ -1,0 +1,97 @@
+
+
+
+# Epic 1 (MVP ou non ?) : Catalogue et Navigation 
+
+
+## User Story 1.1 : En tant que visiteur, je veux pouvoir filtrer les articles par marque, afin de trouver rapidement ce qui me correspond. 
+
+    - CA 1 : Filtres combinables sans rechargement de page
+    - CA 2 : Nombre de résultats affiché dynamiquement
+    - CA 3 : Réinitialisation des filtres avec un bouton
+
+## User Story 1.2 : En tant que visiteur, je veux rechercher un article par mot-clé, afin d'accéder directement au produit que je cherche.
+
+    - CA 1 : Suggestions en temps réel
+    - CA 2 : Résultats tolerant les fautes de frappe
+    - CA 3 : Mise en surbrillance du mot-clé dans les résultats
+
+
+## User Story 1.3hS : En tant que visiteur, je veux accéder à une page "Nouveautés" et une page "Promotions" depuis le menu principal, afin de découvrir rapidement les derniers articles arrivés et les meilleures offres du moment.
+
+    - CA 1 : La page "Nouveautés" affiche les articles ajoutés dans les 30 derniers jours, triés du plus récent au plus ancien
+    - CA 2 : Les deux pages sont accessibles en un clic depuis le menu principal 
+    - CA 3 : La page "Promotions" affiche le prix barré d'origine et le pourcentage de réduction pour chaque article
+
+
+# Epic 2 : Compte et Authentification
+
+## User Story 2.1 : En tant que nouveau visiteur, je veux créer un compte avec mon email, afin de sauvegarder mes commandes et préférences.
+
+    - CA 1 : Mot de passe : min. 8 caractères avec règles de complexité
+    - CA 2 : Mot de passe hachés
+    - CA 3 : Confirmation par email obligatoire
+
+
+
+## User Story 2.2 : En tant que client connecté, je veux consulter l'historique de mes commandes, afin de suivre mes achats et relancer une commande passée.
+
+    - CA 1 : Possibilité de re-commander en un clic
+    - CA 2 : Statut en temps réel (préparation, expédié, livré)
+    - CA 3 : Estimation de la date de livraison affichée
+    
+# Epic 3 (MVP ou non ?) : Panier & Commande
+
+
+## User Story 3.1 : En tant que client, je veux ajouter plusieurs articles dans mon panier et modifier les quantités, afin de préparer ma commande avant de payer.
+
+    - CA 1 : Panier persistant entre sessions (utilisateur connecté)
+    - CA 2 : Résumé du total mis à jour instantanément
+    - CA 3 : Alerte si un article passe en rupture de stock
+
+
+## User Story 3.2 : En tant que client, je veux payer par carte bancaire, PayPal ou Apple Pay, afin de finaliser mon achat de façon sécurisée.
+
+    - CA 1 : Confirmation de commande par email 
+    - CA 2 : Page de confirmation avec numéro de commande
+    - CA 3 : Reçu PDF envoyé par email 
+    - CA 4 : Sauvegarde de la carte bancaire 
+
+
+## User Story 3.3 : En tant que client, je veux appliquer un code promo, afin de bénéficier d'une réduction sur ma commande.
+
+    - CA 1 : Un seul code par commande
+    - CA 2 : Réduction affichée dans le récapitulatif 
+    - CA 3 : Code promo à montant fixe ou pourcentage 
+
+# Epic 4 (MVP ou non ?) : Expérience et Fidélité
+
+
+## User Story 4.1 : En tant que client connecté, je veux ajouter des articles à ma liste de souhaits, afin de les retrouver plus tard ou les partager.
+
+    - CA 1 : Accessible depuis la fiche produit et le catalogue
+    - CA 2 : Notification si le prix baisse
+    - CA 3 : Partage par lien possible
+
+## User Story 4.2 : En tant que client, je veux lire et déposer un avis sur un produit acheté, afin d'aider la communauté et donner mon retour.
+
+     - CA 1 : Avis uniquement pour les acheteurs vérifiés
+     - CA 2 : Note sur 5 étoiles + commentaire texte
+     - CA 3 : Modération avant publication
+
+
+# Epic 5 (MVP ou non ?) : Administration
+
+## User Story 5.1 : En tant qu'administrateur, je veux gérer le catalogue produits (ajout, modification, retrait), afin de maintenir l'offre à jour.
+
+     - CA 1 : Prévisualisation avant publication
+     - CA 2 : Gestion des stocks par taille/coloris
+     - CA 3 : Gestion des catégories et sous-catégories
+    
+
+## User Story 5.2 : En tant qu'administrateur, je veux voir un tableau de bord des ventes et des stocks, afin de piloter l'activité en temps réel.
+
+     - CA 1 : CA du jour, semaine, mois affiché
+     - CA 2 : Export des données en CSV/Excel
+     - CA 3 : Visualisation graphique des ventes
+    
